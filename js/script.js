@@ -46,22 +46,43 @@ let products = [
         inCart: 0
     },
 
+
     {
-        name: "Itachi Funko",
+        name: "Jiraiya Funko",
+        tag: "jiraiyafunko",
+        price: 80,
+        inCart: 0
+    },
+
+    {
+        name: "Kaguya Funko",
+        tag: "kaguyafunko",
+        price: 100,
+        inCart: 0
+    },
+
+    {
+        name: "Kakashi Funko",
+        tag: "kakashifunko",
+        price: 50,
+        inCart: 0
+    },
+    {
+        name: "Tokyo Ghoul Tomo 1",
         tag: "tokyoghoul1",
         price: 20,
         inCart: 0
     },
 
     {
-        name: "Itachi Funko",
+        name: "One Piece Tomo 1",
         tag: "onepiece1",
         price: 20,
         inCart: 0
     },
 
     {
-        name: "Itachi Funko",
+        name: "Dragon Ball Super Tomo 1",
         tag: "dragonball1",
         price: 20,
         inCart: 0
