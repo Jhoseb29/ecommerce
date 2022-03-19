@@ -1,0 +1,440 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    background: #6A617E;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 96%;
+    padding-left: 50px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), #8d5376);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+header .navegacion a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+  text-decoration: none;
+  color: #fff;
+}
+header .navegacion img {
+    width: 100px;
+   
+}
+
+header  nav {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+  li  a {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 40px;
+   text-decoration: none;
+   color: #fff;
+}
+
+li a span {
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+
+
+
+
+
+/* ----------------Muestra---------------- */
+
+
+.muestra{
+    padding: 5rem 50px 0px;
+}
+
+.muestraBx{
+    border: 1px solid transparent;
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+
+.img1 img{
+    width: 864px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img2 img{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;  
+}
+
+.img2 .promo{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    background: yellow;
+    
+    color: black;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+/* ----------------Productos---------------- */
+
+.productos{
+    padding: 5rem 50px 0px;
+    padding-bottom: 50px;
+}
+
+.productos .figuras, .products-container{
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+
+.funkos{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+   margin-bottom: 200px;
+}
+
+
+.funkos .img-container{
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+  }
+  
+.funkos .img-container img{
+   
+    transition: all 0.5s;
+  }
+
+.funkos:hover .img-container img{
+    transform: scale(1.2);
+  }
+  
+.funkos .img-container .promo{
+    position: absolute;
+    
+    left: 0;
+    font-size: 20px;
+    background: yellow;
+    
+    color: black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+.funkos .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  
+.funkos .add-cart{
+    margin-top: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+.funkos .add-cart:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+.funkos .info-container h3,
+.funkos .info-container strong,
+.funkos .info-container span{
+  padding: 5px 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+::-webkit-scrollbar {
+    width: .6rem;
+    background: hsl(0, 0%, 74%);
+    
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #352655;
+    border-radius: 100px;
+  }
+
+
+  /* ---------------ofertas------------------ */
+.ofertas{
+  padding: 0rem 50px 0px;
+}
+
+
+.manga-ofertas{
+  border: 1px solid transparent;
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.img-ofertas img{
+  width: 1100px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---------------footer------------------ */
+
+footer .logo-footer{
+  width: 100px;
+  margin-bottom: 1rem;
+  margin-top: 25px;
+}
+
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0), #8d5376);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.redes-sociales{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #111;
+  background-image: url(facebook.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.social-icon:hover{
+  background-color: rgb(255, 255, 255);
+  filter: invert(1);
+}
+
+.social-icon:nth-last-of-type(2){
+  background-image: url(instagram.png);
+}
+
+.social-icon:nth-last-of-type(3){
+  background-image: url(twitter.png);
+}
+
+.social-icon:nth-last-of-type(4){
+  background-image: url(linkedin.png);
+}
+
+footer span{
+  margin-bottom: 15px;
+}
+
+
+
+/* ---------------Cart.html------------------ */
+
+  .products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin: 50px;
+  }
+
+  .header-product{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), #8d5376);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 0 auto;
+  }
+ 
+  
+
+  .product-name{
+    width: 45%;
+   
+  }
+
+  .product-name img{
+    width: 40px;
+  }
+
+  .precio{
+    width: 15%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .cantidad{
+    width: 30%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .increase{
+    color: #fff;
+    margin-right: 5px;
+  }
+
+  .decrease {
+    color: #fff;
+    margin-left: 5px;
+  }
+
+  .total{
+    width: 10%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+  }
+
+  .product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+  }
+ 
+  .product img{
+    width: 45px;
+  }
+
+  .products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .close{
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .totalCost{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .totalCostTitle{
+    width: 30%;
+  }
+
+  .cartTotal{
+    width: 10%;
+  }
+
+  ::-webkit-scrollbar {
+    width: .6rem;
+    background: hsl(0, 0%, 74%);
+    
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #352655;
+    border-radius: 100px;
+  }
